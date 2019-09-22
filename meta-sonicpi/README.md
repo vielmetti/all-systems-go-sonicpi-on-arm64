@@ -55,7 +55,7 @@ git clone git://git.yoctoproject.org/poky
 git clone git://git.openembedded.org/meta-openembedded
 git clone git://git.yoctoproject.org/meta-raspberrypi
 git clone git://github.com/meta-qt5/meta-qt5.git
-git clone git://github.com:joaohf/meta-erlang.git
+git clone git://github.com/joaohf/meta-erlang.git
 git clone git://github.com/schnitzeltony/meta-musicians
 git clone git://git.openembedded.org/meta-opie
 git clone git@github.com:vielmetti/all-systems-go-sonicpi-on-arm64
@@ -99,3 +99,7 @@ MACHINE = "raspberrypi3-64"
 ## Maintainers
 
 * @snogge Ola Nilsson <ola.nilsson@gmail.com> 
+
+## Contributors
+
+* @g-scott-murray Scott Murray
