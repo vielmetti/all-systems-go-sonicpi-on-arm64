@@ -25,6 +25,21 @@ This layer depends on:
   * branch: master
   * revision: HEAD
 
+* URI: git://github.com:joaohf/meta-erlang.git
+ * layers: meta-erlang
+ * branch: master
+ * revision: HEAD
+
+* URI: git://github.com/meta-qt5/meta-qt5.git
+ * layers: meta-qt5
+ * branch: master
+ * revision: HEAD
+
+* URI: git://github.com/schnitzeltony/meta-musicians
+ * layers: meta-musicians
+ * branch: master
+ * revision: HEAD
+
 ## Quick Start
 
 In a clean directory:
@@ -33,6 +48,9 @@ In a clean directory:
 git clone git://git.yoctoproject.org/poky
 git clone git://git.openembedded.org/meta-openembedded
 git clone git://git.yoctoproject.org/meta-raspberrypi
+git clone git://github.com/meta-qt5/meta-qt5.git
+git clone git://github.com:joaohf/meta-erlang.git
+git clone git://github.com/schnitzeltony/meta-musicians
 git clone git@github.com:vielmetti/all-systems-go-sonicpi-on-arm64
 . poky/oe-init-build-env
 ```
@@ -50,7 +68,12 @@ BBLAYERS ?= " \
   .../meta-openembedded/meta-multimedia \
   .../meta-openembedded/meta-networking \
   .../meta-openembedded/meta-python \
+  .../meta-openembedded/meta-gnome \
+  .../meta-openembedded/meta-xcfe \
   .../meta-raspberrypi \
+  .../meta-erlang \
+  .../meta-qt5 \
+  .../meta-musicians \
   .../all-systems-go-sonicpi-on-arm64/meta-sonicpi \
   "
 ```
