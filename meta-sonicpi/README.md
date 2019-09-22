@@ -16,7 +16,8 @@ This layer depends on:
   * revision: HEAD
 
 * URI: git://git.openembedded.org/meta-openembedded
-  * layers: meta-oe, meta-multimedia, meta-networking, meta-python
+  * layers: meta-oe, meta-multimedia, meta-networking, meta-python,
+    meta-gnome, meta-xfce
   * branch: master
   * revision: HEAD
 
@@ -40,6 +41,11 @@ This layer depends on:
  * branch: master
  * revision: HEAD
 
+* URI: git://git.openembedded.org/meta-opie
+ * layers: meta-opie
+ * branch: master
+ * revision: master
+
 ## Quick Start
 
 In a clean directory:
@@ -51,6 +57,7 @@ git clone git://git.yoctoproject.org/meta-raspberrypi
 git clone git://github.com/meta-qt5/meta-qt5.git
 git clone git://github.com:joaohf/meta-erlang.git
 git clone git://github.com/schnitzeltony/meta-musicians
+git clone git://git.openembedded.org/meta-opie
 git clone git@github.com:vielmetti/all-systems-go-sonicpi-on-arm64
 . poky/oe-init-build-env
 ```
@@ -74,6 +81,7 @@ BBLAYERS ?= " \
   .../meta-erlang \
   .../meta-qt5 \
   .../meta-musicians \
+  .../meta-opie \
   .../all-systems-go-sonicpi-on-arm64/meta-sonicpi \
   "
 ```
